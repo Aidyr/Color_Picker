@@ -1,0 +1,29 @@
+{
+    "geode": "5.7.1",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "aidyr.color_picker",
+    "version": "v1.0.0",
+    "name": "Editor Color Picker",
+    "developer": "Aidyr",
+    "description": "Pick any color visible in the editor and copy its HEX code to the clipboard.",
+    "tags": [
+        "offline",
+        "editor",
+        "utility"
+    ],
+    "dependencies": {
+        "geode.node-ids": ">=v1.23.3"
+    },
+    "resources": {
+        "spritesheets": {
+            "button": [
+                "resour/pickerdos.png"
+            ]
+        }
+    }
+}
